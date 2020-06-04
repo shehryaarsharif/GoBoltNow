@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Bolt from './Black-01.jpg'; 
 import {FaFacebookF} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';

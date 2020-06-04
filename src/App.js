@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './components/Header';
+import Introduction from './components/Introduction';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <Introduction/>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+body { 
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; background-size: cover; 
+    background-image: url("Page1.jpg"); 
+  }
+  h1{
+      text-align: center;
+      color: white;
+      position: relative;
+      font-family: 'Holtwood One SC';
+      
+      top: 350px
+  }
+  h4{
+      text-align: center;
+      color:white;
+      position: relative;
+      top:370px;
+  }
