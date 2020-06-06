@@ -16,7 +16,7 @@ function App() {
         <div id="aboutUs">
           <AboutUs/>
         </div>
-        <div id="services">
+        <div style={{height:"100vh"}} id="services">
           <Services/>
         </div>
     </div>

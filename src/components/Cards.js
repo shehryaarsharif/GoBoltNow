@@ -8,7 +8,7 @@ function Cards(){
         <div>
             <div className="container" style={{display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
                                 
-                <Card style={{ width: '18rem',margin:"20px" }}>
+                <Card style={{ height:'25rem', width: '20rem',margin:"20px",borderColor:"black" }}>
                     <Card.Img src={About} />
                     <Card.Body>
                         {/* <Card.Title>Card Title</Card.Title> */}
@@ -19,7 +19,7 @@ function Cards(){
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                     </Card>
-                <Card style={{ width: '18rem',margin:"20px" }}>
+                <Card style={{ width: '20rem',margin:"20px" }}>
                 <Card.Img src={About} />
                 <Card.Body>
                     {/* <Card.Title>Card Title</Card.Title> */}
