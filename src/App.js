@@ -16,12 +16,13 @@ function App() {
         <div id="intro">
           <Introduction/>
         </div>
-        <div style={{height:"100vh"}} id="services">
-          <Services/>
-        </div>
         <div style={{height:"100vh"}} id="aboutUs">
           <AboutUs/>
         </div>
+        <div style={{height:"100vh"}} id="services">
+          <Services/>
+        </div>
+        
         
         {/* <div>
           <FooterPage/>

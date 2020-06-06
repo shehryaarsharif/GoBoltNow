@@ -12,10 +12,10 @@ function Header(){
             <img src={Bolt}/>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Book Online</Nav.Link>
-                <Nav.Link href="#link">Plans and Pricing</Nav.Link>
+                <Nav className="mr-auto">   
+                <Nav.Link href="#home">Shop</Nav.Link>
+                <Nav.Link href="#link">About</Nav.Link>
+                <Nav.Link href="#link">Trainings</Nav.Link>
                 </Nav>
                 <Nav className="ml-auto">
                     <Nav.Link href="#link" className="mr2">Contact Us</Nav.Link>
