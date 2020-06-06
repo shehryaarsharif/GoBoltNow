@@ -1,14 +1,13 @@
 import React from 'react';
-import './AboutUs.css'
 import Background from './aboutus.jpg'
 
 function AboutUs(){
     return(
-        <div className="mt4">
+        <div className="mt4 container">
             <div className="row no-gutters">
                 <div className="col-md-6 no-gutters">
                     <div className="rightside">
-                        <img src={Background} />
+                        <img src={Background} style={{borderRadius:"8px"}} />
                     </div>
                 </div>
                 <div className="col no-gutters" style={{marginTop:"5%", marginLeft:"5%", display:"flex",justifyContent:"center"}}>

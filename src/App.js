@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import AboutUs from './components/AboutUs';
+import Services from './components/Services'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -9,11 +10,14 @@ function App() {
   return (
     <div >
         <Header/>
-        <div >
+        <div id="intro">
           <Introduction/>
         </div>
-        <div>
+        <div id="aboutUs">
           <AboutUs/>
+        </div>
+        <div id="services">
+          <Services/>
         </div>
     </div>
   );

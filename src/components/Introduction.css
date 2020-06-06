@@ -1,4 +1,4 @@
-  h1{
+  .text1{
       text-align: center;
       color: white;
       position: relative;
@@ -6,24 +6,17 @@
       
       top: 350px
   }
-  h4{
+  .text2 {
       text-align: center;
       color:white;
       position: relative;
       top:370px;
   }
 
-  .b{
+  .bg_image{
      background-image: url("./Page1.jpg"); 
        background-position: center center; 
        background-attachment: fixed; 
        background-repeat: no-repeat; background-size: cover; 
        overflow: hidden;
   }
-  #b{
-    background-image: url("./Page1.jpg"); 
-      background-position: center center; 
-      background-attachment: fixed; 
-      background-repeat: no-repeat; background-size: cover; 
-      overflow: hidden;
- }

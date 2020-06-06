@@ -3,9 +3,9 @@ import './Introduction.css';
 
 function Introduction(){
     return(
-        <div className="b" style={{height:"600px"}}>
-            <h1>Introducing</h1> <h1>goboltnow</h1>
-            <h4>Guaranteed Results</h4>
+        <div className="bg_image" style={{height:"600px"}}>
+            <h1 className="text1">Introducing</h1> <h1 className="text1">goboltnow</h1>
+            <h4 className="text2">Guaranteed Results</h4>
         </div>
     
     );
