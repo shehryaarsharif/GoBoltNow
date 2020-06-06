@@ -8,7 +8,7 @@ import { Nav, Navbar} from "react-bootstrap";
 function Header(){
     return(
         <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" style={{padding:"1%"}}>
             <img src={Bolt}/>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

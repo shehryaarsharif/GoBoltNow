@@ -8,7 +8,7 @@ function AboutUs(){
                 <div className="col-md-6 no-gutters">
                     <div className="rightside">
                         <img src={Background} style={{borderRadius:"8px"}} />
-                    </div>
+                    </div>  
                 </div>
                 <div className="col no-gutters" style={{marginTop:"5%", marginLeft:"5%", display:"flex",justifyContent:"center"}}>
                     <div className="rightside" >
