@@ -2,10 +2,11 @@ import React from 'react';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import AboutUs from './components/AboutUs';
-import Services from './components/Services'
+import Services2 from './components/Services2';
 import FooterPage from './components/FooterPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 
 function App() {
   return (
@@ -16,17 +17,19 @@ function App() {
         <div id="intro">
           <Introduction/>
         </div>
-        <div style={{height:"100vh"}} id="aboutUs">
+        <hr className="container"/>
+        <div id="services">
+          <Services2/>
+        </div>
+        
+        
+        <div id="aboutUs">
           <AboutUs/>
         </div>
-        <div style={{height:"100vh"}} id="services">
-          <Services/>
-        </div>
         
-        
-        {/* <div>
+        <div>
           <FooterPage/>
-        </div> */}
+        </div>
     </div>
   );
 }

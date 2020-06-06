@@ -1,5 +1,6 @@
 import React from 'react';
-import Background from './aboutus.jpg'
+import Background from './aboutus.jpg';
+// import './AboutUs.css';
 
 function AboutUs(){
     return(
