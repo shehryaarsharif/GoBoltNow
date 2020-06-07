@@ -4,7 +4,7 @@ import './FooterPage.css';
 
 const FooterPage = () => {
   return (
-<footer id="footer" class="footer-1 mt4 about-comp2">
+<div id="footer" class="footer-1 mt4 about-comp2">
   <div class="main-footer widgets-dark typo-light">
     <div class="container">
     <div class="row">
@@ -69,7 +69,7 @@ const FooterPage = () => {
     </div>
     </div>
   </div>
-</footer>
+</div>
   );
 }
 

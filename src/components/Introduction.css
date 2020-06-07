@@ -24,3 +24,32 @@
   .w3-content{
     text-align:center;
   }
+
+  .thumbs-wrapper{
+    display: none;
+  }
+  .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    background: black;
+    opacity: 0.6;
+  }
+
+  .txt{
+    font-size: x-large;
+  }
+
+  .carousel-status{
+    display: none;
+  }
+  
+  @media screen and (max-width:600px) {
+    .legend{
+      /* max-width: 60%; */
+      height: 20%;
+      
+    }
+    .txt{
+      font-size: medium;
+    }
+   
+  }
+  
