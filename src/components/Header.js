@@ -9,7 +9,7 @@ function Header(){
     return(
         <div>
         <Navbar bg="light" expand="lg" style={{padding:"1%"}}>
-            <img src={Bolt}/>
+            <img style={{height:"50%"}} src={Bolt}/>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">   

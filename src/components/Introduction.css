@@ -50,6 +50,39 @@
     .txt{
       font-size: medium;
     }
+    .axis-horizontal {
+      height: 80vh;
+      /* max-width: 400px; */
+      /* display: none; */
+    }
+    #img-1{
+      height: 80vh;
+    }
+    
+    #img-2{
+      height: 80vh;
+    }
+    
+    #img-3{
+      height: 80vh;
+    }
+    .legend{
+      display: none;
+    }
+    .control-arrow{
+      display: none;
+    }
+
+    /* li.slide.slide-selected{
+      height: 100px;
+      width: 100px;
+    } */
+    /* ul{
+      /* height: 60vh; */
+    }
+    /* .container{ */
+      /* height:0px */
+    /* }  */
    
-  }
+  /* } */
   

@@ -14,7 +14,7 @@ function App() {
         <div>
           <Header/>
         </div>
-        <div  id="intro">
+        <div id="intro">
           <Introduction/>
         </div>
         <hr className="container"/>

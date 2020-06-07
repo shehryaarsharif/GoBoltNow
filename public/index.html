@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -13,6 +13,15 @@
     <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>gobolnow</title>
+    <style type="text/css">
+      html, body {
+          height: 100%;
+          margin: 0;
+      }
+      .wrapper {
+            min-height: 100%; 
+        }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -25,7 +34,7 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
-    <div id="root"></div>
+    <div class= "wrapper" id="root"></div>
 
   </body>
 </html>

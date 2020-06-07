@@ -11,17 +11,17 @@ class Introduction extends Component {
             <div >
             <Carousel >
                 <div>
-                    <img src={aboutus}  />
+                    <img id="img-1" src={aboutus}  />
                     <div className="container">
                         <div className=" legend pointer dim"><p className="txt"> GOSHOPNOW </p></div>
                     </div>
                 </div>
                 <div>
-                    <img src={aboutus} />
+                    <img id="img-1" src={aboutus} />
                     <div className=" legend pointer dim"><p className="txt"> GOSHOPNOW </p></div>
                 </div>
                 <div>
-                    <img src={aboutus} />
+                    <img id="img-2" src={aboutus} />
                     <div className=" legend pointer dim"><p className="txt"> GOSHOPNOW </p></div>
                 </div>
             </Carousel>
