@@ -2,13 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
     }
     .img-1{
         margin: 15px;
         transition: all 1s;
         height: 70vh;
         border-radius: 1vmin;
-        width: 60vh;
+        /* width: 60vh; */
+        width: auto;
     }
     /* img:hover{
         transform: scale(1.1)
@@ -17,7 +19,9 @@
     @media only screen and (max-width: 600px) {
         .img-1 {
             height:40vh;
-            width:40vh;
+            /* width:40vh; */
             border-radius: 1vmin;
+            overflow: hidden;
+            width: auto;
         }
       }

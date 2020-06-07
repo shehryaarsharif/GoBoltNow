@@ -9,7 +9,7 @@ class Introduction extends Component {
     render() {
         return (
             <div >
-            <Carousel >
+            <Carousel  showArrows={true}  >
                 <div>
                     <img id="img-1" src={aboutus}  />
                     <div className="container">
