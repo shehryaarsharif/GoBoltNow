@@ -6,26 +6,24 @@ import './Card.css';
 function Cards(props){
 
     const { name , time , price } = props;
-    return(
-            
-                                
-                <Card style={{ height:'25rem', width: '20rem',margin:"20px",borderColor:"black" }}>
-                    <Card.Img src={About} />
-                    <Card.Body>
-                        {/* <Card.Title>Card Title</Card.Title> */}
-                        {/* <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                        </Card.Text> */}
-                        <h4>{name}</h4><hr color="black"/>
-                        <div>
-                            <span>{time}</span>
-                            <br/>
-                            <span>{price}</span>
-                        </div>
-                        <Button style={{marginTop:"10%"}} variant="dark">Book Now</Button>
-                    </Card.Body>
-                    </Card>
+    return(                     
+        <Card style={{ height:'25rem', width: '20rem',margin:"20px",borderColor:"black" }}>
+            <Card.Img src={About} />
+            <Card.Body>
+                {/* <Card.Title>Card Title</Card.Title> */}
+                {/* <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+                </Card.Text> */}
+                <h4>{name}</h4><hr color="black"/>
+                <div>
+                    <span>{time}</span>
+                    <br/>
+                    <span>{price}</span>
+                </div>
+                <Button style={{marginTop:"10%"}} variant="dark">Book Now</Button>
+            </Card.Body>
+        </Card>
             
             
            

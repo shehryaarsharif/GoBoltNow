@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
-import Introduction from './components/Introduction';
-import AboutUs from './components/AboutUs';
-import Services2 from './components/Services2';
-import FooterPage from './components/FooterPage'
+import LandingPage from './components/landing/LandingPage';
+import Services from './components/shop/Services';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -11,25 +10,18 @@ import './App.css';
 function App() {
   return (
     <div >
-        <div>
-          <Header/>
-        </div>
-        <div id="intro">
-          <Introduction/>
-        </div>
-        <hr className="container"/>
-        <div id="services">
-          <Services2/>
-        </div>
-        <hr className="container"/>
-        
-        <div id="aboutUs">
-          <AboutUs/>
-        </div>
-        <hr className="container"/> 
-        <div>
-          <FooterPage/>
-        </div>
+      <Router>  
+        <Switch>
+          <Route exact path="/">
+            <Header/>
+            <LandingPage/>
+          </Route>
+          <Route exact path="/shop">
+            <Header/>
+            <Services/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

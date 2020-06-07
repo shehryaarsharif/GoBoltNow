@@ -40,13 +40,33 @@
   .carousel-status{
     display: none;
   }
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  .legend{
+    color:white;
+    background-color: white;
+    background: white;
+    margin-bottom: 10%;
+  }
+  #img-1{
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #img-2{
+    height: 100vh;
+  }
+  
+  #img-3{
+    height: 100vh;
+  }
   
   @media screen and (max-width:600px) {
-    .legend{
-      /* max-width: 60%; */
-      height: 20%;
-      
-    }
+
     .txt{
       font-size: medium;
     }
@@ -67,9 +87,9 @@
     #img-3{
       height: 80vh;
     }
-    .legend{
+    /* .legend{
       display: none;
-    }
+    } */
     .control-arrow{
       display: none;
     }
