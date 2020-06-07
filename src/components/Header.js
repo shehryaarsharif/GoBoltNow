@@ -4,12 +4,13 @@ import {FaFacebookF} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';
 import {AiFillInstagram} from 'react-icons/ai';
 import { Nav, Navbar} from "react-bootstrap";
+import {Link, withRouter} from 'react-router-dom';
 
 function Header(){
     return(
         <div>
         <Navbar bg="light" expand="lg" style={{padding:"1%"}}>
-            <img style={{height:"50%"}} src={Bolt}/>
+            <Link to="/"> <img style={{height:"50%"}} src={Bolt}/> </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">   
